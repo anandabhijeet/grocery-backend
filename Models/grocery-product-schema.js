@@ -26,6 +26,10 @@ const grocery_product_schema = new schema({
     type: String,
     require: true,
   },
+  quantity:{
+    type:Number,
+    require:true
+  }
 });
 
 const grocery_schema = mongoose.model("grocery", grocery_product_schema);
