@@ -11,7 +11,6 @@ export const getGroceries = (req, res) => {
     
         res.status(200).json({
           message: "success",
-          category:["Fruits,Vegetables & Herbs", "Fruits", "Vegetables", "Herbs"],
           data: data,
         });
       });
