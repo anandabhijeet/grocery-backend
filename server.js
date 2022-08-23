@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 dotenv.config();
 import "./Database/db_connection.js";
 import router from "./Routes/routes.js";
-import category_schema from "./Models/grocery-category.js";
 import cors from "cors";
+
 
 const port = 5000;
 const app = express();
